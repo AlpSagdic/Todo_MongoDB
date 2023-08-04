@@ -1,0 +1,12 @@
+.navbar-nav  li a:hover {
+    color: orange !important;
+}
+
+.navbar-brand:hover {
+    color: orange !important;
+}
+  
+.btn.btn-warning:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
