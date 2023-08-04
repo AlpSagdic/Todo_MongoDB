@@ -54,9 +54,9 @@ app.post("/complete", async (req, res) => {
     }
 });
 
-app.get("/:name", async (req, res) => {
-    console.log("Selam ben "+req.params.name);
-});
+//app.get("/:name", async (req, res) => {
+//    console.log("Selam ben "+req.params.name);
+//});
 
 
 app.listen(port, () => {
